@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:rowCount="4"
+    android:columnCount="3"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="@dimen/mmButtonW"
+        android:layout_height="@dimen/mmButtonH"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/MenuButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mmButtonM"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/button"
+            app:tint="#0088FF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="@string/button1"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/mmButtonW"
+        android:layout_height="@dimen/mmButtonH"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/MenuButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mmButtonM"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/button"
+            app:tint="#FF0000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="@string/button2"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/mmButtonW"
+        android:layout_height="@dimen/mmButtonH"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/MenuButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/mmButtonM"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/button"
+            app:tint="#008800" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="@string/button3"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+</GridLayout>

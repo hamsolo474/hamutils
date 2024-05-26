@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">hamutils</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Price Per KG Calculator</string>
+    <string name="wan_calc_label">Wan Calc Label</string>
+    <string name="main_menu_label">Hamutils 猪具</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="WC_explanation"> </string>
+    <string name="WC_result">Result goes here!</string>
+    <string name="PPKC_explanation">Type the price/weight</string>
+    <string name="PPKC_result">Result goes here!</string>
+    <string name="button1">Unit Weight Calc</string>
+    <string name="button2">万\n2 words</string>
+    <string name="button3">Button3</string>
+    <string name="button4">Button4</string>
+    <string name="button5">Button5</string>
+    <string name="button6">Button6</string>
+    <string-array name="WCdropdown">
+        <item>万</item>
+        <item>亿</item>
+        <item>一</item>
+    </string-array>
+</resources>

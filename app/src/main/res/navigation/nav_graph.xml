@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainMenu">
+
+    <fragment
+        android:id="@+id/MainMenu"
+        android:name="com.example.hamutils.Menu"
+        android:label="@string/main_menu_label"
+        tools:layout="@layout/main_menu">
+
+        <action
+            android:id="@+id/action_MM_to_FF"
+            app:destination="@id/FirstFragment"
+            />
+        <action
+            android:id="@+id/action_MM_to_WC"
+            app:destination="@id/WanCalc"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.hamutils.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first" >
+
+        <action
+            android:id="@+id/action_FF_to_MM"
+            app:destination="@id/MainMenu"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/WanCalc"
+        android:name="com.example.hamutils.WanCalc"
+        android:label="@string/wan_calc_label"
+        tools:layout="@layout/wan_calc" >
+
+        <action
+            android:id="@+id/action_WC_to_MM"
+            app:destination="@id/MainMenu"
+            />
+    </fragment>
+</navigation>

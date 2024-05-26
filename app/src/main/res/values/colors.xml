@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dt_bg">#22222200</color>
+    <color name="dt_fg">#aaaaaa00</color>
+    <color name="dt_bg_bg">#44444400</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
